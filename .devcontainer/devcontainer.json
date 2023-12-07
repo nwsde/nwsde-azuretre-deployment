@@ -11,8 +11,8 @@
       // 		export DOCKER_GROUP_ID=$(getent group docker | awk -F ":" '{ print $3 }')
       "DOCKER_GROUP_ID": "${localEnv:DOCKER_GROUP_ID}",
       "INTERACTIVE": "true",
-      "OSS_REPO": "microsoft/AzureTRE",
-      "OSS_VERSION": "v0.15.2"
+      "OSS_REPO": "nwsde/nwsde-azuretre",
+      "OSS_VERSION": "jr/2-ui-nwsde-branding"
     }
   },
   "runArgs": [
